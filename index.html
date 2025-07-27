@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Jahongir Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    
+    <video autoplay muted loop id="background-video">
+  <source src="video/3129957-uhd_3840_2160_25fps.mp4" type="video/mp4" />
+  Dein Browser unterstützt kein Video-Tag.
+</video>
+ <div class="language-selector">
+  <select onchange="changeLanguage(this.value)">
+    <option value="de">Deutsch</option>
+    <option value="en">English</option>
+    <option value="ru">Русский</option>
+    </select>
+    </div>
+    <div class="container">  
+      <div class="box1">
+        <h1>Hallo, ich bin jahongir</h1>
+        <h5>Wilkommen auf maine Seite !</h5>
+      </div>
+      <div id="about" class="box2">
+        <p onclick="showContent( 'box3',this )">Über mich</p>
+        <p onclick="showContent( 'box4', this )">Meine Fähigkeiten</p>
+        <p onclick="showContent( 'box5',this )">interessante Fakten</p>
+        <p onclick="showContent( 'box6', this)">Kontakte</p>
+      </div>
+
+      <div class="CONT">
+        <div id="box3" class="content active">
+          <h2 style="text-align: start">Über mich</h2>
+          <p>
+            ich heiße Jahongir und komme aus Tadschikistan. Technologie
+            begeistert mich – besonders IT und Webentwicklung. Mein Ziel ist es,
+            in der Zukunft als IT-Spezialist zu arbeiten und digitale Lösungen
+            zu gestalten. Ich bin kreativ, lernbereit und motiviert, Neues zu
+            entdecken und umzusetzen.
+          </p>
+        </div>
+        <div id="box4" class="content">
+          <h2 style="text-align: start">Meine Fähigkeiten</h2>
+          <li>HTML, CSS,</li>
+          <li>JavaScript</li>
+          <li>Git Hub</li>
+        </div>
+        <div id="box5" class="content">
+          <p>
+          <h1>interessante Fakten</h1>
+          <li>Ich liebe es, neue Sprachen zu lernen.</li>
+          <li>Ich interessiere mich für computerspiele und videobearbeitung.</li>
+          <li>Ich liebe es, die Neuen code Lernen.</li>
+          </p>
+            </div>
+
+             <div id="box6" class="content">
+            <h1>Kontakte</h1>
+            <p>
+          <h5>Mein Email: <a href="">Jakhongir.1206@gamil.com</a> <br /> </h5>
+           <h5> Mein Nummer:<a href="">+4915731268980</a> </h5>
+          <h5>Mein Instagram: <a href="https://www.instagram.com/jakhongir_84?igsh=cjNmeTB6Y2ptNzQw">jakhongir_84</a></h5>
+        </p>
+        </div>
+
+    </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
